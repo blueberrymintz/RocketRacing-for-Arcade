@@ -18,6 +18,6 @@ function love.update(dt)
 end
 
 function love.draw()
-    love.graphics.draw(Car.sprite, Car.x, Car.y)
     love.graphics.setBackgroundColor(300,300,300)
+    love.graphics.draw(Car.sprite, Car.x, Car.y,math.deg(90),10,10)
 end
